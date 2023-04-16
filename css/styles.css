@@ -156,10 +156,16 @@ img {
 	}
 
 /* Hero image */
-	.studio {
+	.hero {
 		background-color: var(--navy-blue);
 		padding: 188px 0px;
-	}
+		background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/sectiom_hero/people-office\ 1.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		max-width: 1440px;
+		margin: auto;
+		}
+
 	.hero-title {
 		font-weight: 700;
 		font-size: 56px;
@@ -205,13 +211,18 @@ img {
 		align-items: flex-start;
 	}
 	.features-list-item {
-		width: calc((100% - 72px) / 4);
+		max-width: 264px;
 	}
 	.features-list li {
 		margin-right: 24px;
 	}
 	.features-list-item:last-child {
 		margin-right: 0;
+	}
+	.features-list-icon {
+		padding: 24px 100px;
+		background-color: var(--cloud);	
+		margin-bottom: 8px;
 	}
 
 /* Section 3 */
