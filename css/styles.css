@@ -304,6 +304,9 @@ img {
 .customers {
   padding: 120px 0;
 }
+.customers h2 {
+  line-height: 1.1;
+}
 .customers-list {
   display: flex;
   justify-content: center;
@@ -365,7 +368,7 @@ img {
   color: var(--cloud);
   max-width: 264px;
 }
-.footer-socials p {
+.footer-socials-title {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
