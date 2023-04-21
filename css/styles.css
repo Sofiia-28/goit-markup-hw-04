@@ -365,8 +365,10 @@ img {
   color: var(--cloud);
   max-width: 264px;
 }
-.footer-socials h4 {
+.footer-socials p {
   font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--white);
   margin-bottom: 16px;
 }
@@ -378,7 +380,7 @@ img {
   width: 40px;
   height: 40px;
 }
-.footer-socials-icon {
+.footer-socials-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -386,13 +388,15 @@ img {
   height: 100%;
   background-color: var(--iris);
   border-radius: 50%;
-  fill: var(--white);
 }
-.footer-socials-icon:hover {
+.footer-socials-link:hover {
   background-color: var(--green);
 }
-.footer-socials-icon:focus {
+.footer-socials-link:focus {
   background-color: var(--green);
+}
+.footer-socials-icon {
+  fill: var(--cloud);
 }
 
 /* Portfolio */
